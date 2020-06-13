@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="16dp"-->
+<!--        android:textColor="@color/colorAccent"-->
+<!--        android:text="서버의 응답 : "-->
+<!--        android:id="@+id/textViewReciev" />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="server-ip"-->
+<!--        android:ems="10"-->
+<!--        android:layout_below="@+id/textViewReciev"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="31dp"-->
+<!--        android:id="@+id/addressText" />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Send message"-->
+<!--        android:ems="10"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:id="@+id/messageText"-->
+<!--        android:layout_below="@+id/portText"-->
+<!--        android:layout_alignStart="@+id/portText" />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="port"-->
+<!--        android:ems="10"-->
+<!--        android:id="@+id/portText"-->
+<!--        android:layout_below="@+id/addressText"-->
+<!--        android:layout_alignStart="@+id/addressText" />-->
+
+<!--    <Button-->
+<!--        android:text="clear"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/buttonClear"-->
+<!--        android:layout_alignBaseline="@+id/buttonConnect"-->
+<!--        android:layout_alignBottom="@+id/buttonConnect"-->
+<!--        android:layout_alignEnd="@+id/messageText" />-->
+
+<!--    <Button-->
+<!--        android:text="Send"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/buttonConnect"-->
+<!--        android:layout_below="@+id/messageText"-->
+<!--        android:layout_alignStart="@+id/messageText"-->
+<!--        android:layout_marginTop="13dp" />-->
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <EditText
+        android:id="@+id/et_newData"
+        android:layout_below="@+id/tv_message"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_update"
+        android:text="update"
+        android:layout_below="@+id/et_newData"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_update"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

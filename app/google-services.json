@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "675212477947",
+    "firebase_url": "https://soboro-23b29.firebaseio.com",
+    "project_id": "soboro-23b29",
+    "storage_bucket": "soboro-23b29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675212477947:android:7f27dbce166c728916f75e",
+        "android_client_info": {
+          "package_name": "com.example.soboro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675212477947-8sv0bcs3all1erm0l8ct8kcrahp1qgbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_4YJ22LjNq_lM-pk053wPB9MGvHFcqFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675212477947-8sv0bcs3all1erm0l8ct8kcrahp1qgbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
