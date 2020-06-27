@@ -53,3 +53,5 @@
 source tflite1-env/bin/activate
 python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model --edgetpu
 ```
+## 애플리케이션
+앱으로도 카메라의 영상이 스트리밍 될 수 있도록 하기 위해 UV4L을 사용하여 웹에서 영상이 스트리밍 될 수 있도록 하고, 안드로이드 스튜디오에서 웹에서 스트리밍되는 영상을 WebView를 통해 볼 수 있도록 했다. 스트리밍 하는 영상의 width, height, brightness, contrast, saturation, rgb balance, sharpness, rotate, jpeg quality, frame rate, horizontal mirror, vertical mirror, video denoise, image stabilization 등등 다양한 설정값을 변경하여 영상 스트리밍을 앱으로 받아볼 수 있다. 라즈베리 파이에서 인공지능으로 고양이, 강아지를 인식하여 사용자가 지정한 위험구역에 들어오면 앱으로 푸쉬알람을 보낸다. 사용자가 이름과 email 정보를 입력하면 반려동물이 위험구역에 접근했을 때 앱으로 알림이 가는 서비스를 구독할 수 있다. 구독자의 정보는 파이어베이스 데이터베이스에 실시간으로 반영되고, 구독 해지 시 자동으로 데이터베이스에서 정보를 삭제한다. 파이어베이스에서 사용자들의 정보와 사용량, 동시 연결 수, 클라우드 메시징(푸쉬알람)이 사용자에게 몇번 전송되고, 수신되고, 노출되고, 열렸는지를 실시간으로 모니터링할 수 있다. 또한 여러 대의 스마트폰 디바이스에서 실시간 스트리밍을 볼 수 있고, 푸쉬알람을 받을 수 있다.
